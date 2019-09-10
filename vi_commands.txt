@@ -45,7 +45,7 @@ Reading and Saving Files:
 1)Read file named <filename> and insert after current line(the line with cursor)- :r <filename>
 2)write current contents to a new file named newfile- :w <newFile>
 3)write the contents of the lines numbered 12 through 35 to a new file named smallfile- :12,35w smallfile
-
+4)
 
 
 
