@@ -1,0 +1,42 @@
+1)git config --list --show-origin
+file:/home/tafzs/.gitconfig     user.name=fayaz-abdul
+file:/home/tafzs/.gitconfig     user.email=fayaz.abdul@gmail.com
+file:.git/config        core.repositoryformatversion=0
+file:.git/config        core.filemode=true
+file:.git/config        core.bare=false
+file:.git/config        core.logallrefupdates=true
+file:.git/config        remote.origin.url=https://github.com/jeevanempati/documentations.git
+file:.git/config        remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config        branch.master.remote=origin
+file:.git/config        branch.master.merge=refs/heads/master
+
+2)git config --global user.name "jeevanempati"
+3)git config --global user.email "emjeevan21@gmail.com"
+4)git config --list --show-origin
+file:/home/tafzs/.gitconfig     user.name=jeevanempati
+file:/home/tafzs/.gitconfig     user.email=emjeevan21@gmail.com
+file:.git/config        core.repositoryformatversion=0
+file:.git/config        core.filemode=true
+file:.git/config        core.bare=false
+file:.git/config        core.logallrefupdates=true
+file:.git/config        remote.origin.url=https://github.com/jeevanempati/documentations.git
+file:.git/config        remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config        branch.master.remote=origin
+file:.git/config        branch.master.merge=refs/heads/master
+
+5)git clone /path/to/directory
+
+6)git pull   : to fetch and merge changes on the remote server to your local working directory
+
+Merge:
+-----
+=>To merge a testbranch to master, first we have to switch to master and 
+# git merge <testbranch>
+# git commit -m "msg"
+# git push origin master
+
+Undo commit:
+-----------
+
+
+
