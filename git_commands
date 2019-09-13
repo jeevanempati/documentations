@@ -35,8 +35,20 @@ Merge:
 # git commit -m "msg"
 # git push origin master
 
-Undo commit:
+Undo commit(this changes will done only in locally):
 -----------
+->Revert: this is used to undo the changes to the previous commit and also creates new commit with revert
+# git revert <commit-id>
+[testrepo cbef66e] Revert "qwert"
+ 1 file changed, 3 deletions(-)
+# git status
+On branch testrepo
+Your branch is ahead of 'origin/testrepo' by 2 commits.
+  (use "git push" to publish your local commits)
 
+nothing to commit, working tree clean
+------------------------------------------------------------------------------------
+->Reset: this is used to undo the changes to the Mentioned commit and also remove the commits exclude the Mentioned commit
+# git reset <commit-id>
 
 
